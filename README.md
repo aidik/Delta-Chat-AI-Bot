@@ -1,4 +1,4 @@
-# AI Delta Bot
+# Delta AI Bot
 
 An AI-powered chatbot for [Delta Chat](https://delta.chat/) that forwards messages to an OpenAI-compatible API (e.g. [OpenRouter](https://openrouter.ai)) and replies with the AI-generated response.
 
@@ -56,7 +56,7 @@ pip install requests dotenv deltabot-cli
 python deltabot.py init "DCACCOUNT:https://nine.testrun.org/new"
 python deltabot.py config displayname "Delta AI Bot"
 python deltabot.py config selfstatus "Hi, I am Delta an AI Bot, ask me something."
-python deltabot.py config selfavatar "./bot-avatar.png"
+python deltabot.py config selfavatar "./bot-avatar.jpg"
 ```
 
 The `init` command creates a new Delta Chat account for the bot. The `config` commands set its display name, status text, and avatar that other Delta Chat users will see. You only need to do this once.
